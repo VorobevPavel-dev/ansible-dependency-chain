@@ -1,0 +1,9 @@
+---
+- name: Call role with chain dependency
+  connection: local
+  gather_facts: false
+  hosts: localhost
+  tasks:
+    - name: Import high-level role
+      ansible.builtin.include_role:
+        name: role_b

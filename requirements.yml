@@ -1,0 +1,5 @@
+roles:
+  - name: role_b
+    src: git@github.com:VorobevPavel-dev/role_b.git
+    scm: git
+    version: master
